@@ -1,0 +1,71 @@
+body {
+    background-image: url(pozadina.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    text-align: center;
+    font-size: 10vh;
+    font-family: sans-serif;
+}
+#poluprecnik {
+    font-family: serif;
+    font-size: 6vh;
+    font-weight: bold;
+}
+#r {
+    font-size: 6vh;
+    width: 5vw;
+    color: gray;
+    border-radius: 5px;
+}
+#visina {
+    font-family: serif;
+    font-size: 6vh;
+    font-weight: bold;
+}
+#h {
+    font-size: 6vh;
+    width: 5vw;
+    color: gray;
+    border-radius: 5px;
+
+}
+#zapremina {
+    font-family: serif;
+    font-size: 6vh;
+    font-weight: bold;
+}
+h2 {
+    text-align: center;
+    font-size: 8vh;
+    font-family: sans-serif;
+}
+div {
+    text-align: center;
+}
+#div1::after{
+    font-family: sans-serif;
+    font-size: 6vh;
+    font-weight: bold;
+    content: "centimetara";
+}
+#div2::after{
+    font-family: sans-serif;
+    font-size: 6vh;
+    font-weight: bold;
+    content: "centimetara";
+}
+#div3::after{
+    font-family: sans-serif;
+    font-size: 6vh;
+    font-weight: bold;
+    content: "kubnih centimetara";
+}
+output{
+    font-size: 10vh;
+    width: 5vw;
+    font-weight: bold;
+    color: red;
+    border-radius: 5px;
+}
